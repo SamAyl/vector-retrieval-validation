@@ -1,0 +1,7 @@
+index,bytes_per_vector,payload_model,overhead_pct,gb_10M_x3,build_s
+Flat float32,3072.0,3072,0.0,92.16,0.3
+Scalar fp16,1536.0,1536,0.0,46.08,0.3
+Scalar int8,768.1,768,0.0,23.04,0.3
+"IVF1024,PQ96",143.4,96,49.4,4.3,31.7
+HNSW M=16 + float32,3216.3,3072,4.7,96.49,20.6
+HNSW M=32 + float32,3344.2,3072,8.9,100.33,22.4

@@ -1,0 +1,7 @@
+selectivity,predicate,actual_selectivity,model_mean_candidates,measured_median_candidates,measured_p90_candidates,model_fill_at_k_over_s,measured_fill_at_k_over_s,model_fill_at_1_5x,measured_fill_at_1_5x,hnsw_postfilter_fill,hnsw_postfilter_recall,hnsw_infilter_fill,hnsw_infilter_recall
+0.1,independent,0.1,200,196,258,0.534,0.532,0.983,0.983,0.553,0.91,1.0,0.995
+0.1,positive,0.0952,200,20,26,0.534,1.0,0.983,1.0,1.0,1.0,1.0,1.0
+0.1,negative,0.0925,200,25523,37285,0.534,0.0,0.983,0.0,0.0,0.0,0.0,0.002
+0.01,independent,0.01,2000,1972,2629,0.53,0.527,0.979,0.963,0.5,0.872,0.04,0.381
+0.01,positive,0.009,2000,22,36,0.53,1.0,0.979,1.0,1.0,1.0,1.0,1.0
+0.01,negative,0.0079,2000,76240,92338,0.53,0.0,0.979,0.0,0.0,0.0,0.0,0.0

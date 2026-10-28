@@ -1,0 +1,5 @@
+shards,model,measured_latency_independent,common_cause,model_common_cause,marginal_miss_common_cause
+4,0.9606,0.9613,0.9752,0.9752,0.0098
+8,0.9227,0.9228,0.9561,0.9557,0.0098
+16,0.8515,0.8511,0.9176,0.9179,0.0102
+32,0.725,0.7244,0.8477,0.8469,0.01
